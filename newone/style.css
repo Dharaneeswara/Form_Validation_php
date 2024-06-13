@@ -1,0 +1,34 @@
+body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    text-align: center;
+}
+
+label{
+    width: 100%;
+}
+
+#registerform{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid blueviolet;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0 auto;
+    
+}
+.genders{
+    display: inline-block;
+}
+.btn{
+    margin-top: 10px;
+    background: lightgreen;
+}
+.error{
+    color: red;
+}
